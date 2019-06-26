@@ -1,2 +1,10 @@
-# cz-js
-commitizen for JT
+# cz-jt
+
+## install
+``` js
+skyjt czjt
+```
+
+
+https://gitmoji.carloscuesta.me/
+
