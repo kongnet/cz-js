@@ -12,6 +12,7 @@
     "commitizen"
   ],
   "dependencies": {
+    "ansi-styles": "^4.0.0",
     "cli-truncate": "^1.0.0",
     "fuse.js": "^3.2.0",
     "home-dir": "^1.0.0",
