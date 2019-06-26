@@ -6,6 +6,7 @@
   "repository": "kongnet/cz-jt",
   "scripts": {
     "patch": "git add . && git commit -m:pencil2: && npm version patch && npm publish .",
+    "cz": "git add . && git cz && npm version patch && npm publish .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -22,5 +23,13 @@
     "wrap-ansi": "^3.0.0"
   },
   "author": "skykong",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "cz-jt": "^0.1.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-jt"
+    }
+  }
 }
