@@ -1,6 +1,6 @@
 {
   "name": "cz-jt",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "JT commitizen",
   "main": "index.js",
   "repository": "kongnet/cz-jt",
