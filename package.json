@@ -14,7 +14,9 @@
   ],
   "dependencies": {
     "ansi-styles": "^4.0.0",
+    "babel-eslint": "^10.0.2",
     "cli-truncate": "^1.0.0",
+    "eslint": "^6.0.1",
     "fuse.js": "^3.2.0",
     "home-dir": "^1.0.0",
     "inquirer-autocomplete-prompt": "^0.12.0",
@@ -25,6 +27,7 @@
   "author": "skykong",
   "license": "MIT",
   "devDependencies": {
+    "cc-jt": "^0.1.2",
     "cz-jt": "^0.1.6"
   },
   "config": {

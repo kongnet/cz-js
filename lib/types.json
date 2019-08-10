@@ -8,20 +8,20 @@
   {
     "emoji": "⚡️",
     "code": ":zap:",
-    "description": "性能优化.",
-    "name": "perf性能"
+    "description": "性能优化.Enhancements",
+    "name": "enhancements.perf性能"
   },
   {
     "emoji": "🔥",
     "code": ":fire:",
-    "description": "删除代码或文件.",
-    "name": "prune精简"
+    "description": "删除代码或文件.del",
+    "name": "del.prune精简"
   },
   {
     "emoji": "🐛",
     "code": ":bug:",
     "description": "修复bug.",
-    "name": "fix修复"
+    "name": "fix.bug修复"
   },
   {
     "emoji": "🚑",
@@ -128,20 +128,20 @@
   {
     "emoji": "🔧",
     "code": ":wrench:",
-    "description": "修改配置文件.",
+    "description": "修改配置文件.config",
     "name": "config配置"
   },
   {
     "emoji": "🌐",
     "code": ":globe_with_meridians:",
-    "description": "国际化支持.",
+    "description": "国际化支持.i18n",
     "name": "i18n国际化"
   },
   {
     "emoji": "✏️",
     "code": ":pencil2:",
-    "description": "修复排版问题.",
-    "name": "typo排版"
+    "description": "修复排版问题.typo",
+    "name": "typo.modify排版"
   },
   {
     "emoji": "💩",
@@ -165,7 +165,7 @@
     "emoji": "📦",
     "code": ":package:",
     "description": "编译与打包.",
-    "name": "dep-up"
+    "name": "dep-up.build"
   },
   {
     "emoji": "👽",
@@ -194,8 +194,8 @@
   {
     "emoji": "💬",
     "code": ":speech_balloon:",
-    "description": "文案的修改.",
-    "name": "texts文案"
+    "description": "文案的修改",
+    "name": "texts.note文案"
   },
   {
     "emoji": "🗃",
