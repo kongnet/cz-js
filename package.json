@@ -7,7 +7,9 @@
   "scripts": {
     "patch": "git add . && git commit -m:pencil2: && npm version patch && npm publish .",
     "cz": "git add . && git cz && npm version patch && npm publish .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "commitizen"
@@ -20,7 +22,8 @@
     "inquirer-autocomplete-prompt": "^0.12.0",
     "pad": "^2.0.1",
     "read-pkg-up": "^2.0.0",
-    "wrap-ansi": "^3.0.0"
+    "wrap-ansi": "^3.0.0",
+    "snyk": "^1.316.1"
   },
   "author": "skykong",
   "license": "MIT",
@@ -33,5 +36,6 @@
     "commitizen": {
       "path": "./node_modules/cz-jt"
     }
-  }
+  },
+  "snyk": true
 }
